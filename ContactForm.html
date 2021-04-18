@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<!-- The following lines are comments
+     Author: Rian Bolger
+     Date Created: 17/03/2021
+     Page Description: --------
+     Modified: --------->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />  <!-- charachter of encoding-->
+        <meta name="description" content="Football Content">
+        <meta name="keywords" content="Most successful teams from each major league, Best players from each major league , best goals, football skills">
+        <title>YourFootballSource</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="icon" type="image/gif" sizes="16x16" href="Favicon/favicon.ico">
+    </head>
+    
+    <nav>
+            <!-- Navigation menu-->
+                <a  href="index.html">Home </a> |
+                <a  href ="teams.html">Successful Teams </a> |
+                <a  href ="players.html">Best players </a> |
+                <a id = "active" href = "ContactForm.html">Contact Form </a> |
+                <a  href="Map.html">Map </a> |
+                <a  href="Stadiums.html">Stadiums </a> |
+            </nav>
+    <article class="border">   
+        
+        <style>
+        body {background-image:url(images/football.jpg);}
+        </style> 
+    
+    <form> 
+    <label for="first_name">First Name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last Name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required><br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="john@example.com">
+                    <br>
+                    
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="gender" name="gender" value="male"> Male
+                    <input type="radio" id="gender" name="gender" value="female"> Female
+                    <input type="radio" id="gender" name="gender" value="other"> Other <br>
+                    <label for="internet">Heard of us:</label>
+                    <fieldset>
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                    <input type="checkbox" class="marginl" id="hearr" name="paper" value="paper"> Newspaper <br>
+                    <input type="checkbox" class="marginl" id="hearr" name="paper" value="friend"> Friend <br>
+                    <input type="checkbox" class="marginl" id="hearr" name="paper" value="Add"> Others <br>
+                    </fieldset>
+                    <br>
+                    
+                    <label for="message">Query : </label>
+                    <textarea cols="40"rows="5" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+       </form>
+        </article>
+    <footer><!-- footer grouping of content-->
+                            <a  href="index.html">Home </a> |
+                <a  href ="teams.html">Successful Teams </a> |
+                <a  href ="players.html">Best players </a> |
+                <a id = "active" href = "ContactForm.html">Contact Form </a> |
+                <a  href="Map.html">Map </a> |
+                <a  href="Stadiums.html">Stadiums </a> |
+            <p> &copy;Copyright &#64;2021</p>
+        </footer>
+</html>
